@@ -1,1 +1,0 @@
-export let greeting = 'hello. this is a test file only...'
