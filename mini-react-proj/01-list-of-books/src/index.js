@@ -16,4 +16,6 @@ function BookList() {
   );
 }
 
-ReactDOM.render(<BookList />, document.getElementById('root'));
+ReactDOM.render(
+<BookList />,
+document.getElementById('root'));

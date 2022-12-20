@@ -10,7 +10,7 @@ function List({ people }) {
             <img src={image} alt={name} />
             <div>
               <h4>{name}</h4>
-              <h6>{age}{' years'}</h6>
+              <h6>{age} years</h6>
             </div>
           </article>
         );

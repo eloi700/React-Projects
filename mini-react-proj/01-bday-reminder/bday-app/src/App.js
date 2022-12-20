@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import {data} from '../src/data';
 import List from './List';
+
 function App() {
-  // eslint-disable-next-line no-unused-vars
+
   const [people, setPeople] = useState(data);
   return (
     <main>
