@@ -6,11 +6,19 @@ const UseEffectFetchData = () => {
 
   const [users, setUsers] = useState([]);
 
+  // behind async await is a promises e.g., fetch returns promise
+  // if there's reject - try and catch must be used
   const getUsers = async () => {
-    const response = await fetch(url);
-    const users = await response.json();
+    const response = await fetch(url); // fetch a the response
+    const users = await response.json(); // turn the resp into json/obj.
     setUsers(users);
   };
+
+  // const getUsers = () => {
+  //   fetch(url)
+  //   .then((resp)=> resp.json())
+  //   .then(users => setUsers(users))
+  // }
 
   //   Re-render
   useEffect(() => {

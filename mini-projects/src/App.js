@@ -1,7 +1,9 @@
 // import UseStateObject from './Components/01-UseStateObject';
 // import UseStateCounter from './Components/02-UseStateCounter';
 // import UseEffect from './Components/03-UseEffect';
-import UseEffectFetchData from './Components/04-UseEffectFetchData';
+// import UseEffectFetchData from './Components/04-UseEffectFetchData';
+// import MultipleReturns from './Components/05-MultipleReturns';
+import ShortCircuit from './Components/06-ShortCircuit';
 // import './App.css';
 
 function App() {
@@ -10,7 +12,9 @@ function App() {
       {/* <UseStateObject/> */}
       {/* <UseStateCounter/> */}
       {/* <UseEffect/> */}
-      <UseEffectFetchData/>
+      {/* <UseEffectFetchData/> */}
+      {/* <MultipleReturns/> */}
+      <ShortCircuit/>
     </div>
   );
 }
