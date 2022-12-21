@@ -3,7 +3,6 @@ import Loading from './Components/Loading';
 import Tours from './Tours';
 
 const url = 'https://course-api.com/react-tours-project';
-// const url = 'https://course-api.netlify.app/api/react-tours-project';
 
 export default function TourApp() {
   const [loading, setLoading] = useState(true);
