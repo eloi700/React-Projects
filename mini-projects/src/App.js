@@ -4,7 +4,8 @@
 // import UseEffectFetchData from './Components/04-UseEffectFetchData';
 // import MultipleReturns from './Components/05-MultipleReturns';
 // import ShortCircuit from './Components/06-ShortCircuit';
-import ShowHide from './Components/07-ShowHideCleanUp'
+// import ShowHide from './Components/07-ShowHideCleanUp'
+import Iteration from './Components/01-UseStateDataIter';
 // import './App.css';
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
       {/* <UseEffectFetchData/> */}
       {/* <MultipleReturns/> */}
       {/* <ShortCircuit/> */}
-      <ShowHide/>
+      {/* <ShowHide/> */}
+      <Iteration/>
     </div>
   );
 }

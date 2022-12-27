@@ -169,6 +169,11 @@ Variables
     background: var(--clr-primary-1);
     color: var(--clr-primary-5);
   }
+
+  .btn.selected{
+    background: #020253;
+    color: #fff;
+  }
   .item {
     background: var(--clr-white);
     display: flex;
@@ -318,3 +323,8 @@ Variables
     text-transform: capitalize;
     cursor: pointer;
   }
+
+  .quest-para{
+    font-size: 1.2rem;
+    color:#000;
+}
